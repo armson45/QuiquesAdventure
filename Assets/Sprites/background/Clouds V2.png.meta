@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 90a1ce644da6eb24a9aa2edc6fe6b97e
+guid: 1d3489762d4d5c0419f9aaf553f7fe36
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,34 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack3_0
+      name: Clouds V2_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 12
-        width: 59
-        height: 82
-      alignment: 9
-      pivot: {x: 0.5657217, y: 0.56018454}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c4a2515d57823340875ce513367c464
-      internalID: -90643284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack3_1
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 12
-        width: 59
-        height: 82
+        x: 8
+        y: 80
+        width: 60
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f22faacdae30dc4c9fb1b064017d77d
-      internalID: -2121589792
+      spriteID: 6029b272c48c0a249aefed4bc5f13a39
+      internalID: -428343605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack3_2
+      name: Clouds V2_1
       rect:
         serializedVersion: 2
-        x: 429
-        y: 12
-        width: 72
-        height: 77
+        x: 81
+        y: 84
+        width: 30
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cad2c476f6675f1409578ca786dd3412
-      internalID: -1817778541
+      spriteID: 69f07789e13d15a4b9c4bf5e0bc2067d
+      internalID: -622051473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack3_3
+      name: Clouds V2_2
       rect:
         serializedVersion: 2
-        x: 630
-        y: 12
-        width: 38
-        height: 72
+        x: 8
+        y: 50
+        width: 34
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +179,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d74979e9daa5aa448b1f3998a9c4c4f5
-      internalID: -357722826
+      spriteID: d5128fd67c7d78d499301e9e51f5e0ee
+      internalID: 1397150694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds V2_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 44
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31491947b905584f8cfc2a71bab278c
+      internalID: 1456411444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds V2_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f64251c868a899408cdf24018d4e6c9
+      internalID: 1496271731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds V2_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 11
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4997147db26e434e96b6bb7fb9c1a31
+      internalID: 556906934
       vertices: []
       indices: 
       edges: []
@@ -217,10 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack3_0: -90643284
-      Attack3_1: -2121589792
-      Attack3_2: -1817778541
-      Attack3_3: -357722826
+      Clouds V2_0: -428343605
+      Clouds V2_1: -622051473
+      Clouds V2_2: 1397150694
+      Clouds V2_3: 1456411444
+      Clouds V2_4: 1496271731
+      Clouds V2_5: 556906934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

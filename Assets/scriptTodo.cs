@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -102,13 +103,17 @@ public class scriptTodo : MonoBehaviour
         {
             barraDeVida.value -= enemyDamage;
         }
+        else if (collision.gameObject.tag == "PlataformaMovible")
+        {
+            transform.parent = collision.transform;
+        }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemigo")
+        if (collision.gameObject.tag == "PlataformaMovible")
         {
-            
+            transform.parent = null;
         }
     }
 }

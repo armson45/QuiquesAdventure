@@ -5,13 +5,11 @@ using UnityEngine;
 public class Ghoul : MonoBehaviour
 {
 
-
     [SerializeField] private float velocidad;
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private float distancia;
     [SerializeField] private bool moviendoDerecha;
     private Rigidbody2D enemigo;
-
 
     void Start()
     {
@@ -44,5 +42,4 @@ public class Ghoul : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawLine(controladorSuelo.transform.position, controladorSuelo.transform.position + Vector3.down * distancia);
     }
-
 }
